@@ -38,9 +38,9 @@ Job Control
 ------------
 1. ps 		# List all processes running on system
 2. kill		# Sends a signal to the processes specified
-	1. kill -l 	# List the signal names that can be sent to the processes in linux
-	2. kill <PID>   # Kill process with id PID
-	3. kills -s SIGKILL <PID> # Send SIGKILL signal to process with PID
+	i.   kill -l 	# List the signal names that can be sent to the processes in linux
+	ii.  kill <PID>   # Kill process with id PID
+	iii. kills -s SIGKILL <PID> # Send SIGKILL signal to process with PID
 3. jobs 	# Lists the jobs that the current shell is managing
 4. bg		# Used to put a process in the background
 5. fg		# Used to put a process in the foreground

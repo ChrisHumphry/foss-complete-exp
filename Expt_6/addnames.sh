@@ -1,5 +1,3 @@
-#Experiment 6
-#--------------
 #!/bin/bash
 if [ $# -eq 2 ];
 then

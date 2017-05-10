@@ -1,6 +1,4 @@
 #!/bin/sh
-#'Experiment 5'
-#'---------------'
 y=0
 while [ "$y" -eq 0 ]
 do
@@ -19,23 +17,23 @@ do
 		read e
 		if [ "$e" -eq 1 ]
 		then
-			c=$(expr "$a" + "$b")
+			c=$(($a+$b))
 			echo "Sum: $c"
 		elif [ "$e" -eq 2 ] 
 		then
-			c=$(expr "$a" - "$b")
+			c=$(($a-$b))
 			echo "Difference: $c" 
 		elif [ "$e" -eq 3 ]
 		then
-			c=$(expr "$a" \* "$b")
+			c=$(($a*$b))
 			echo "Product: $c"
 		elif [ "$e" -eq 4 ]
 		then
-			c=$(expr "$a" / "$b")
+			c=$(($a/$b))
 			echo "Quotient: $c"
 		elif [ "$e" -eq 5 ]
 		then
-			c=$(expr "$a" % "$b")
+			c=$(($a%$b))
 			echo "Remainder: $c"
 		else
 			echo "Invalid operation selected"
